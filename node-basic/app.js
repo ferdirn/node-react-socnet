@@ -1,4 +1,4 @@
-console.log("Hello from node js")
+const helpers = require('./helpers');
 
-const total = sum(10, 200)
-console.log("TOTAL:", total)
+const total = helpers.sum(11, 100);
+console.log("TOTAL:", total);
